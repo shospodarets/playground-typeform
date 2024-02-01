@@ -8,7 +8,7 @@ import {
 
 export default function Home() {
     setDefaultConfiguration({
-        type: 'popup',
+        type: 'iframe', // 'iframe' | 'popup'
         appName: 'playground-typeform',
     });
 
